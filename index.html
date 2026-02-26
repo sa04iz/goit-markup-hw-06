@@ -26,16 +26,20 @@
     <header class="page-header">
       <div class="container header-container">
         <nav class="header-nav">
-          <a class="logo header-logo" href="./index.html"
-            >Web<span class="logo-part">Studio</span></a
+          <a class="header-logo" href="./index.html"
+            >WEB<span class="logo-part">STUDIO</span></a
           >
 
           <ul class="nav-list">
             <li class="nav-item">
               <a class="nav-link current" href="./index.html">Studio</a>
             </li>
-            <li class="nav-item"><a class="nav-link" href="">Portfolio</a></li>
-            <li class="nav-item"><a class="nav-link" href="">Contacts</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacts">Contacts</a>
+            </li>
           </ul>
         </nav>
 
@@ -62,68 +66,14 @@
     </header>
 
     <!-- Main Section -->
-<!-- mobile menu -->
-     <div class="mobile-menu is-open" data-menu>
-  <div class="container mobile-menu-container">
-    <button type="button" class="close-mobile" data-menu-close>
-      <svg class="close-btn-mobile" width="8" height="8" aria-label="Close menu">
-        <use href="./images/icons.svg#icon-close"></use>
-      </svg>
-    </button>
 
-    <nav class="nav-main-mobile">
-      <ul class="nav-list-mobile">
-        <li><a class="mobile-nav-link-studio" href="#studio">Studio</a></li>
-        <li><a class="mobile-nav-link" href="#our-portfolio">Portfolio</a></li>
-        <li><a class="mobile-nav-link" href="#contacts">Contacts</a></li>
-      </ul>
-    </nav>
-
-    <div class="mobile-footer">
-      <address class="address-mobile">
-        <ul class="address-list-mobile">
-          <li>
-            <a class="address-nav-mobile" href="tel:+110001111111">+11 (000) 111-11-11</a>
-          </li>
-          <li>
-            <a class="address-nav-email" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-        </ul>
-      </address>
-
-      <ul class="social-links-mobile">
-        <li>
-          <a href="https://www.instagram.com/" class="social-icon" target="_blank" rel="noopener noreferrer">
-            <svg width="24" height="24" class="icon">
-              <use href="./images/icons.svg#icon-instagram"></use>
-            </svg>
-          </a>
-        </li>
-        <li>
-          <a href="https://twitter.com" class="social-icon" target="_blank" rel="noopener noreferrer">
-            <svg width="24" height="24" class="icon">
-              <use href="./images/icons.svg#icon-twitter"></use>
-            </svg>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.facebook.com/" class="social-icon" target="_blank" rel="noopener noreferrer">
-            <svg width="24" height="24" class="icon">
-              <use href="./images/icons.svg#icon-facebook"></use>
-            </svg>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/" class="social-icon" target="_blank" rel="noopener noreferrer">
-            <svg width="24" height="24" class="icon">
-              <use href="./images/icons.svg#icon-linkedin"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
+    <main>
+      <section class="main-section hidden">
+        <div class="container main-container">
+          <h1 class="solution">Effective Solutions for Your Business</h1>
+          <button class="button-main" type="button">Order Service</button>
+        </div>
+      </section>
 
       <!-- Our Features Section -->
 
@@ -193,7 +143,7 @@
 
       <!-- Our Team Section -->
 
-      <section class="team-section">
+      <section class="team-section hidden">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-item">
@@ -444,7 +394,7 @@
 
       <!-- Portfolio Section -->
 
-      <section class="portfolio-section">
+      <section class="portfolio-section hidden">
         <div class="container portfolio-container">
           <h2 id="portfolio" class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -641,8 +591,7 @@
             </li>
           </ul>
         </div>
-
-        
+        <div class="mail-form">
           <p class="mail-text">Subscribe</p>
           <form class="subscribe-form" name="subscribe_form" autocomplete="off">
             <label class="form-label" for="email"></label>
