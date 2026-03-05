@@ -207,7 +207,7 @@ a {
   height: 56px;
   /*  border: 1px solid #000; */
 
-.features-title {
+/* .features-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -221,7 +221,7 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: left;
-}
+} */
 
 /* .visually-hidden {
   position: absolute;
@@ -236,7 +236,7 @@ a {
   overflow: hidden;
 } */
 
-.features {
+/* .features {
   display: flex;
   align-items: center;
   gap: 24px;
@@ -266,9 +266,9 @@ a {
 .features-section,
 .portfolio-section {
   padding: 120px 0;
-}
+} */
 
-.team-item {
+/* .team-item {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -354,7 +354,7 @@ a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
+} */
 
 .box {
   position: relative;
