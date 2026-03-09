@@ -629,184 +629,182 @@
           </div>
         </div>
       </footer>
-      <div class="backdrop" data-modal>
-        <div class="modal">
-          <button class="close-button" type="button" data-modal-close>
-            <svg class="close-icon" width="8" height="8">
-              <use href="./images/icons.svg#icon-close"></use>
-            </svg>
-          </button>
-          <p class="form-title">
-            Leave your contacts and we will call you back
-          </p>
-          <form>
-            <div class="contacts-field">
-              <div class="wrapper-field">
-                <label class="label-field" for="username">
-                  Name
-                  <span class="icon-wrapper">
-                    <svg class="form-icon" width="18" height="24">
-                      <use href="./images/icons.svg#icon-person"></use>
-                    </svg>
-                    <input
-                      class="input-field"
-                      type="text"
-                      name="username"
-                      id="username"
-                    />
-                  </span>
-                </label>
-              </div>
-              <label class="label-field" for="phonenumber">
-                Phone
-                <span class="icon-wrapper">
-                  <svg class="form-icon" width="18" height="24">
-                    <use href="./images/icons.svg#icon-phone"></use>
-                  </svg>
-                  <input
-                    class="input-field"
-                    type="tel"
-                    name="contact-number"
-                    id="phonenumber"
-                  />
-                </span>
-              </label>
-              <label class="label-field" for="mail">
-                Email
-                <span class="icon-wrapper">
-                  <svg class="form-icon" width="18" height="24">
-                    <use href="./images/icons.svg#icon-mail"></use>
-                  </svg>
-                  <input
-                    class="input-field"
-                    type="email"
-                    name="email"
-                    id="mail"
-                  />
-                </span>
-              </label>
-              <label class="label-field">
-                Comment
-                <textarea
-                  name="comment"
-                  rows="10"
-                  placeholder="Text input"
-                  id="comment-field"
-                ></textarea>
-              </label>
-              <label class="privacy-label">
-                <input
-                  class="checkbox visually-hidden"
-                  type="checkbox"
-                  name="accept"
-                  value="Privacy Policy"
-                />
-                <span class="accept-image">
-                  <svg class="check-icon" width="10" height="8">
-                    <use href="./images/icons.svg#icon-accept"></use>
-                  </svg>
-                </span>
-                <span class="checkbox-text"
-                  >I accept the terms and conditions of the
-                  <a class="checkbox-link" href="">Privacy Policy</a>
-                </span>
-              </label>
-              <button class="button-send" type="submit">Send</button>
-            </div>
-          </form>
-        </div>
-      </div>
-      <!-- mobile menu -->
-
-      <div class="mobile-menu" data-menu>
-        <div class="container mobile-menu-container">
-          <button class="mobile-menu-close" data-menu-close>
-            <svg class="close-icon-mobile" width="8" height="8">
-              <use href="./images/icons.svg#icon-close"></use>
-            </svg>
-          </button>
-          <nav class="mobile-menu-nav">
-            <ul class="mobile-nav-list">
-              <li class="mobile-nav-item">
-                <a class="mobile-nav-link current" href="./index.html"
-                  >Studio</a
-                >
-              </li>
-              <li class="mobile-nav-item">
-                <a class="mobile-nav-link" href="#portfolio">Portfolio</a>
-              </li>
-              <li class="mobile-nav-item">
-                <a class="mobile-nav-link" href="#contacts">Contacts</a>
-              </li>
-            </ul>
-          </nav>
-          <address>
-            <ul class="contacts-list-mobile">
-              <li class="contacts-item-mobile">
-                <a class="contacts-link-mobile" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li class="contacts-item-mobile">
-                <a class="contacts-link-mobile" href="tel:+110001111111"
-                  >+11 (000) 111-11-11</a
-                >
-              </li>
-            </ul>
-          </address>
-
-          <div class="social-links-mobile">
-            <ul>
-              <li>
-                <a
-                  href="https://www.instagram.com/"
-                  target="_blank"
-                  class="link-mobile"
-                >
-                  <svg class="social-mobile" width="24" height="24">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.twitter.com/"
-                  target="_blank"
-                  class="link-mobile"
-                >
-                  <svg class="social-mobile" width="24" height="24">
-                    <use href="./images/icons.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.facebook.com/"
-                  target="_blank"
-                  class="link-mobile"
-                >
-                  <svg class="social-mobile" width="24" height="24">
-                    <use href="./images/icons.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/"
-                  target="_blank"
-                  class="link-mobile"
-                >
-                  <svg class="social-mobile" width="24" height="24">
-                    <use href="./images/icons.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <script src="./js/menu.js"></script>
-      <script src="./js/modal.js"></script>
     </header>
+    <!--  backdrop -->
+
+    <div class="backdrop" data-modal>
+      <div class="modal">
+        <button class="close-button" type="button" data-modal-close>
+          <svg class="close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="form-title">Leave your contacts and we will call you back</p>
+        <form>
+          <div class="contacts-field">
+            <div class="wrapper-field">
+              <label class="label-field" for="username">
+                Name
+                <span class="icon-wrapper">
+                  <svg class="form-icon" width="18" height="24">
+                    <use href="./images/icons.svg#icon-person"></use>
+                  </svg>
+                  <input
+                    class="input-field"
+                    type="text"
+                    name="username"
+                    id="username"
+                  />
+                </span>
+              </label>
+            </div>
+            <label class="label-field" for="phonenumber">
+              Phone
+              <span class="icon-wrapper">
+                <svg class="form-icon" width="18" height="24">
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+                <input
+                  class="input-field"
+                  type="tel"
+                  name="contact-number"
+                  id="phonenumber"
+                />
+              </span>
+            </label>
+            <label class="label-field" for="mail">
+              Email
+              <span class="icon-wrapper">
+                <svg class="form-icon" width="18" height="24">
+                  <use href="./images/icons.svg#icon-mail"></use>
+                </svg>
+                <input
+                  class="input-field"
+                  type="email"
+                  name="email"
+                  id="mail"
+                />
+              </span>
+            </label>
+            <label class="label-field">
+              Comment
+              <textarea
+                name="comment"
+                rows="10"
+                placeholder="Text input"
+                id="comment-field"
+              ></textarea>
+            </label>
+            <label class="privacy-label">
+              <input
+                class="checkbox visually-hidden"
+                type="checkbox"
+                name="accept"
+                value="Privacy Policy"
+              />
+              <span class="accept-image">
+                <svg class="check-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-accept"></use>
+                </svg>
+              </span>
+              <span class="checkbox-text"
+                >I accept the terms and conditions of the
+                <a class="checkbox-link" href="">Privacy Policy</a>
+              </span>
+            </label>
+            <button class="button-send" type="submit">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- mobile menu -->
+
+    <div class="mobile-menu" data-menu>
+      <div class="container mobile-menu-container">
+        <button class="mobile-menu-close" data-menu-close>
+          <svg class="close-icon-mobile" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <nav class="mobile-menu-nav">
+          <ul class="mobile-nav-list">
+            <li class="mobile-nav-item">
+              <a class="mobile-nav-link current" href="./index.html">Studio</a>
+            </li>
+            <li class="mobile-nav-item">
+              <a class="mobile-nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="mobile-nav-item">
+              <a class="mobile-nav-link" href="#contacts">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address>
+          <ul class="contacts-list-mobile">
+            <li class="contacts-item-mobile">
+              <a class="contacts-link-mobile" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="contacts-item-mobile">
+              <a class="contacts-link-mobile" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+
+        <div class="social-links-mobile">
+          <ul>
+            <li>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="link-mobile"
+              >
+                <svg class="social-mobile" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.twitter.com/"
+                target="_blank"
+                class="link-mobile"
+              >
+                <svg class="social-mobile" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="link-mobile"
+              >
+                <svg class="social-mobile" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                class="link-mobile"
+              >
+                <svg class="social-mobile" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="./js/menu.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
