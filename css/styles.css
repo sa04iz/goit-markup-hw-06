@@ -444,7 +444,7 @@ button {
   background-size: cover;
   width: 100%;
 
-  margin: 0 auto 96px auto;
+  /*   margin: 0 auto 96px auto; */
 }
 
 .main-container {
@@ -513,7 +513,6 @@ button {
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url(../images/peopleofficetab@2x.jpg);
     padding-top: 112px;
-    padding-bottom: 36px;
   }
 
   .main-container {
@@ -530,9 +529,7 @@ button {
 
 @media screen and (min-width: 1158px) {
   .main-section {
-    padding-top: 188px;
-    padding-bottom: 188px;
-    margin: 0 auto 120px auto;
+    padding: 188px 0;
   }
 
   .main-container {
@@ -541,6 +538,9 @@ button {
 }
 
 /* features */
+.features-section .container {
+  padding: 96px 0;
+}
 
 .features-title {
   font-weight: 700;
@@ -572,7 +572,7 @@ button {
 
   gap: 72px;
   max-width: 288px;
-  margin: 0 auto 96px auto;
+
   padding: 0;
 }
 
@@ -610,6 +610,9 @@ button {
 }
 
 @media screen and (min-width: 1158px) {
+  .features-section .container {
+    padding: 120px 0;
+  }
   .features-item {
     display: flex;
     width: calc((100% - 3 * 24px) / 4);
@@ -625,7 +628,6 @@ button {
     display: flex;
     align-items: center;
     gap: 24px;
-    margin: 0 auto 120px auto;
   }
   .features-info,
   .features-item {
@@ -780,7 +782,7 @@ button {
   justify-content: center;
   align-items: center;
 
-  margin: 0 auto 96px auto;
+  padding: 96px 0;
   width: 100%;
 }
 
@@ -826,8 +828,8 @@ button {
   line-height: 1.11111;
   letter-spacing: 0.02em;
   text-align: center;
-  margin: 96px 0 72px 0;
-  padding: 0;
+
+  padding-bottom: 72px;
 }
 
 .portfolio-list {
@@ -895,6 +897,10 @@ img {
 }
 
 @media screen and (min-width: 1158px) {
+  .portfolio-container {
+    padding: 120px 0;
+  }
+
   .box,
   .portfolio-item img {
     width: 360px;
@@ -904,17 +910,13 @@ img {
     row-gap: 48px;
     column-gap: 24px;
   }
-  .portfolio-section {
-    padding: 0 auto;
-    margin: 0 auto 120px auto;
-  }
 }
 
 /* footer */
 
 .page-footer {
   background-color: #2e2f42;
-  /* padding: 100px 0; */
+  padding: 96px 0;
 }
 
 .footer-container {
@@ -923,6 +925,7 @@ img {
   align-items: center;
   justify-content: center;
   position: relative;
+  gap: 72px;
 }
 
 .footer-info {
@@ -930,8 +933,6 @@ img {
 
   flex-direction: column;
   gap: 16px;
-  margin: 96px auto 72px auto;
-  /*  margin-right: 120px; */
 }
 
 .footer-logo,
@@ -999,11 +1000,6 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-  margin: 72px auto 96px auto;
-  max-width: 453px;
-  width: 100%;
-  /* margin-left: auto; */
 }
 
 .mail-text {
@@ -1019,7 +1015,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  /*   gap: 16px; */
   width: 100%;
 }
 
@@ -1045,11 +1041,9 @@ img {
   border: 1px solid #fff;
   border-radius: 4px;
   width: 288px;
-
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: rgba(0, 0, 0, 0);
-  /*   margin-right: 24px; */
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding-left: 16px;
   outline: none;
@@ -1064,7 +1058,6 @@ img {
 
 .icon-send {
   fill: #fff;
-  /* margin-left: auto; */
 }
 
 .form-button {
@@ -1116,7 +1109,6 @@ img {
   .footer-info,
   .link-item-footer,
   .mail-form {
-    margin: 0;
     align-items: flex-start;
     justify-content: flex-start;
   }
@@ -1128,24 +1120,22 @@ img {
   .subscribe-form {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 0;
+
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 24px;
   }
   .input-subscribe {
     max-width: 264px;
   }
   .mail-form {
     gap: 16px;
-
-    align-items: flex-start;
-    justify-content: flex-start;
   }
 }
 
 @media screen and (min-width: 1158px) {
   .page-footer {
-    padding: 100px 0;
+    padding: 100px 0 132px 0;
   }
   .footer-container {
     align-items: baseline;
@@ -1229,7 +1219,7 @@ img {
   background-color: #fcfcfc;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin: 0;
-  padding: 72px 24px 24px 24px;
+  padding: 72px 16px 24px 16px;
 }
 
 .backdrop:not(.is-open) .modal {
@@ -1430,5 +1420,6 @@ input[type="checkbox"]:checked + .accept-image .check-icon {
   .modal {
     width: 408px;
     min-height: 584px;
+    padding: 72px 24px 24px 24px;
   }
 }
