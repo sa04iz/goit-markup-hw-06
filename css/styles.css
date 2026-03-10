@@ -442,7 +442,7 @@ button {
   background-position: center center;
   background-size: cover;
   width: 100%;
-  max-width: 320px;
+  /*   max-width: 320px; */
 
   /*   margin: 0 auto 96px auto; */
 }
@@ -514,7 +514,8 @@ button {
       url(../images/peopleofficetab.jpg);
     padding-top: 112px;
     padding-bottom: 112px;
-    max-width: 768px;
+    /*  max-width: 768px; */
+    width: 100%;
   }
 
   .main-container {
@@ -542,7 +543,7 @@ button {
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url(../images/people-officed.jpg);
     padding: 188px 0;
-    max-width: 1440px;
+    /*  max-width: 1440px; */
     height: 600px;
   }
 
@@ -609,14 +610,13 @@ button {
   }
   .features-title {
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
+    text-align: left;
   }
 
   .features-info {
     display: flex;
     flex-direction: column;
-
     align-items: flex-start;
   }
   .features {
@@ -904,12 +904,9 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-
-  
   .portfolio-item {
     width: calc((100% - 24px) / 2);
   }
-
 
   .portfolio-list {
     flex-direction: row;
@@ -921,25 +918,22 @@ img {
     column-gap: 24px;
     padding: 0 auto;
   }
-  .
 }
 
 @media screen and (min-width: 1158px) {
-  
   .portfolio-item {
     width: calc((100% - 48px) / 3);
     box-shadow: none;
   }
   .portfolio-item:hover,
   .portfolio-item:focus {
-  box-shadow:
-    0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16),
-    0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  background: #fff;
-}
+    box-shadow:
+      0 2px 1px 0 rgba(46, 47, 66, 0.08),
+      0 1px 1px 0 rgba(46, 47, 66, 0.16),
+      0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
+  }
 
- 
   .portfolio-container {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -947,8 +941,8 @@ img {
 
   .box,
   .portfolio-item img {
-     min-width: 356px;
-  min-height: 300px;
+    min-width: 356px;
+    min-height: 300px;
   }
   .portfolio-list {
     row-gap: 48px;
@@ -1179,7 +1173,7 @@ img {
 
 @media screen and (min-width: 1158px) {
   .page-footer {
-    padding: 100px 0 132px 0;
+    padding: 100px 0;
   }
   .footer-container {
     align-items: baseline;
