@@ -442,9 +442,6 @@ button {
   background-position: center center;
   background-size: cover;
   width: 100%;
-  /*   max-width: 320px; */
-
-  /*   margin: 0 auto 96px auto; */
 }
 
 .main-container {
@@ -514,7 +511,6 @@ button {
       url(../images/peopleofficetab.jpg);
     padding-top: 112px;
     padding-bottom: 112px;
-    /*  max-width: 768px; */
     width: 100%;
   }
 
@@ -543,7 +539,7 @@ button {
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url(../images/people-officed.jpg);
     padding: 188px 0;
-    /*  max-width: 1440px; */
+    max-width: 1440px;
     height: 600px;
   }
 
